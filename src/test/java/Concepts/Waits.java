@@ -16,19 +16,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class Waits {
 
 	public static void main(String[] args) throws InterruptedException {
-		// TODO Auto-generated method stub
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 		ChromeDriver d= new ChromeDriver();
 		d.get("https://the-internet.herokuapp.com/");
@@ -54,7 +41,7 @@ public class Waits {
 				.ignoring(NoSuchElementException.class);
 		
 		
-		waitfluent.until(ExpectedConditions.alertIsPresent);
+		//waitfluent.until(ExpectedConditions.alertIsPresent);
 		
 		
 		
